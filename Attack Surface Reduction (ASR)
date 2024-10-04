@@ -1,0 +1,58 @@
+Cybersecurity is a constantly evolving field, with new threats emerging on a regular basis. Two important concepts in cybersecurity are Indicator of Attack (IOA)
+and Attack Surface Reduction (ASR). Understanding the difference between these two concepts can help organizations better protect their systems and networks from cyber threats.
+
+
+1. Indicator of Attack (IOA)
+2. Attack Surface Reduction (ASR)
+3. ASR on Elastic  
+4. ASR on CrowdStrike
+5. Steps to Implement ASR on Windows Defender 
+
+
+Indicator of Attack (IOA): 
+An Indicator of Attack (IOA) is a signal or pattern that indicates a potential attack on a system or network. These indicators can include suspicious network activity, unusual system behavior.
+Examples of IOAs include network traffic from a known malicious IP address, the presence of malware on a system, or a sudden increase in failed login attempts. IOAs are used by security professionals to detect, investigate, and respond to potential or active security incidents.
+
+Attack Surface Reduction (ASR):
+It refers to a set of security features and controls that are designed to reduce the attack surface of a system or network.
+Attack surface reduction can include a variety of measures such as disabling unnecessary services or protocols, restricting access to network resources, and implementing security controls such as firewalls and intrusion detection systems. By reducing the attack surface, organizations can make it more difficult for attackers to successfully compromise their systems and networks.
+One example of an ASR solution is,
+
+Windows Defender Attack Surface Reduction: 
+It's a security feature built into Windows 10 that helps to reduce the attack surface of a device by blocking certain types of malicious behavior. To use ASR, you must have Windows 10 version 1803 or later, and have Windows Defender enabled. With ASR enabled, Windows will automatically block certain types of malicious behavior, such as fileless malware, script-based attacks, and other types of exploitation.
+
+Elastic Defense:
+A security solution that uses AI and ML algorithms to analyze large amounts of data and identify potential IOAs. The solution is designed to detect and respond to cyber threats in real-time by analyzing network traffic, endpoint data, and other security-related information.
+One example of an Elastic Defense IOA is the detection of an abnormal increase in network traffic to a specific IP address.
+
+CrowdStrike
+It is is a security software company that provides endpoint protection, threat intelligence, and incident response services. One of the key features of CrowdStrike's platform is its ability to detect and respond to IOAs in real-time. 
+One example of a CrowdStrike IOA is the detection of malicious code injection. CrowdStrike's platform uses a combination of behavioral analysis and machine learning to detect when an attacker is trying to inject malicious code into a running process on a system.
+
+
+Attack Surface Reduction (ASR) Rules:
+Attack surface reduction rules are sets of options and configurations that prevent common attack vectors, such as:
+
+Malicious Executable Files: Blocking the execution of malicious scripts and programs.
+Unauthorized Access: Preventing access to sensitive resources by untrusted processes.
+Exploitation of Vulnerabilities: Mitigating known vulnerabilities in software and applications.
+
+Key ASR rules include:
+Block executable content from email and webmail clients: Prevents potentially harmful executable files from running.
+Use advanced protection features: Incorporate behavior analysis and other monitoring tools to detect and block cyber threats.
+Enforce rules in audit mode: Allows organizations to test ASR rules without enforcing them, helping to identify potential impacts before full deployment.
+
+Best Practices for Reducing the Attack Surface
+
+Regular Updates and Patching: Patch all systems and applications.
+Network Segmentation: Divide the network into segments to limit the spread of potential attacks.
+Access Controls: Implement strict access control measures, including multi-factor authentication.
+Employee Training: Educate employees on security best practices and potential threats.
+Continuous Monitoring: Regularly monitor the network for suspicious activity and potential vulnerabilities.
+
+Check this video fro Crowdstrike exposure management.
+https://www.crowdstrike.com/platform/exposure-management/easm/
+
+
+
+
